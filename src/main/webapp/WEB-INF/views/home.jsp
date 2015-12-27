@@ -35,12 +35,13 @@
 </ul>
 
 
-<form action='/search' id='search' method='get' name='searchForm' style='display:inline;'> 
-<input id='search-box' name='q' onblur='if (this.value == &quot;&quot;) this.value = &quot;Buscar...&quot;;' onfocus='if (this.value == &quot;Buscar...&quot;) this.value = &quot;&quot;;' size='28' type='text' value='Buscar...'/></form>
+<!-- <form action='/search' id='search' method='get' name='searchForm' style='display:inline;'>  -->
+<!-- <input id='search-box' name='q' onblur='if (this.value == &quot;&quot;) this.value = &quot;Buscar...&quot;;' onfocus='if (this.value == &quot;Buscar...&quot;) this.value = &quot;&quot;;' size='28' type='text' value='Buscar...'/></form> -->
 
 </div></div>
 <div>
  <table border="1">
+ 	<h1>Primer cuatrimestre</h1>
     <tr>
       <td>ASIGNATURA</td>
       <td>CURSO</td>
