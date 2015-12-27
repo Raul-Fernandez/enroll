@@ -1,0 +1,98 @@
+#menuWrapper {
+width:100%; /* Ancho del menú */
+height:35px;
+padding-left:14px;
+background:#333333; /* Color de fondo */
+border-radius:20px; /* Bordes redondeados */
+}
+.menu {
+width: 100%;
+float: left;
+font-family:"Lucida Sans Unicode", "Trebuchet Unicode MS", "Lucida Grande",sans-serif;
+font-size:13px; /* Tamaño de la fuente */
+font-weight:bold;
+}
+.menu ul {
+float:left;
+height:0px;
+list-style:none;
+margin:0;
+padding:0;
+border-radius: 0px 0px 20px 20px; /* Bordes redondeados del submenú */
+}
+.menu li{
+float:left;
+padding:0px;
+}
+.menu li a{
+background:#333333 url(http://lh4.googleusercontent.com/-iqgCHipLGx4/T5DqLrsVALI/AAAAAAAACaI/bcIY7SV8s5I/s35/separador.gif) bottom right no-repeat;
+color:#cccccc; /* Color de la fuente */
+display:block;
+font-weight:normal;
+line-height:35px;
+margin:0px;
+padding:0px 25px; /* Espacio entre cada pestaña */
+text-align:center;
+text-decoration:none;
+}
+.menu li a:hover, .menu ul li:hover a {
+background: #2580a2; /* Color de las pestañas al pasar el cursor */
+color:#FFFFFF; /* Color del texto al pasar el cursor */
+text-decoration:none;
+}
+.menu li ul {
+background:#333333; /* Color de fondo del submenú */
+display:none;
+height:auto;
+padding:0px;
+margin:0px;
+position:absolute;
+width:200px; /* Ancho del submenú */
+z-index:100;
+border-top:1px solid #fff; /* Borde superior del submenú */
+}
+.menu li:hover ul{
+display:block;
+}
+.menu li li {
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+.menu li:hover li a {
+background:none;
+border-radius: 0px 0px 20px 20px; /* Borde de las subpestañas */
+}
+.menu li ul a {
+display:block;
+height:35px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+background:#2580a2; /* Color de las subpestañas al pasar el cursor */
+color:#ffffff;
+text-decoration:none;
+}
+
+#search { 
+width: 228px; /* Ancho del buscador */
+height: 22px;
+float: right;
+text-align: center;
+margin-top: 6px;
+margin-right: 6px;
+/* Imagen de fondo del buscador */
+background: url(http://4.bp.blogspot.com/_qgZA1ny_dAs/Szuhn02zO6I/AAAAAAAADdI/u2etpRWlwF8/s1600/search-bar.png) no-repeat;
+}
+#search-box {
+margin-top: 3px;
+border:0px;
+background: transparent;
+text-align:center;
+}
