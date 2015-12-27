@@ -4,7 +4,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8">
 		<title>Pure CSS3 Menu</title>
-		<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="/resources/css/style.css" media="screen" rel="stylesheet" type="text/css" />
 		
 	</head>
 
